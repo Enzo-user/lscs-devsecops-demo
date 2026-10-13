@@ -1,0 +1,13 @@
+{
+  "name": "lscs-devsecops-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample project for demoing the lscs-devsecops Claude Code plugin.",
+  "type": "module",
+  "scripts": {
+    "lint": "node --check src/sum.js && node --check test/sum.test.js && node --check scripts/build.js",
+    "test": "node --test",
+    "build": "node scripts/build.js"
+  },
+  "license": "MIT"
+}
